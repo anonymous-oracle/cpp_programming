@@ -8,9 +8,9 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="lecture_oops1.cpp"/>
     <File Name="random.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="pointer.cpp" ExcludeProjConfig="Debug;"/>
-    <File Name="player.cpp"/>
     <File Name="control_flow.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="main.cpp" ExcludeProjConfig="Debug;"/>
   </VirtualDirectory>
