@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=./build-$(ConfigurationName)//player.cpp$(ObjectSuffix) 
+Objects0=./build-$(ConfigurationName)//lecture_oops1.cpp$(ObjectSuffix) 
 
 
 
@@ -91,13 +91,13 @@ PreBuild:
 ##
 ## Objects
 ##
-./build-$(ConfigurationName)//player.cpp$(ObjectSuffix): player.cpp ./build-$(ConfigurationName)//player.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/suhas/cpp_programming/player.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/player.cpp$(ObjectSuffix) $(IncludePath)
-./build-$(ConfigurationName)//player.cpp$(DependSuffix): player.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT./build-$(ConfigurationName)//player.cpp$(ObjectSuffix) -MF./build-$(ConfigurationName)//player.cpp$(DependSuffix) -MM player.cpp
+./build-$(ConfigurationName)//lecture_oops1.cpp$(ObjectSuffix): lecture_oops1.cpp ./build-$(ConfigurationName)//lecture_oops1.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/suhas/cpp_programming/lecture_oops1.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/lecture_oops1.cpp$(ObjectSuffix) $(IncludePath)
+./build-$(ConfigurationName)//lecture_oops1.cpp$(DependSuffix): lecture_oops1.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT./build-$(ConfigurationName)//lecture_oops1.cpp$(ObjectSuffix) -MF./build-$(ConfigurationName)//lecture_oops1.cpp$(DependSuffix) -MM lecture_oops1.cpp
 
-./build-$(ConfigurationName)//player.cpp$(PreprocessSuffix): player.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ./build-$(ConfigurationName)//player.cpp$(PreprocessSuffix) player.cpp
+./build-$(ConfigurationName)//lecture_oops1.cpp$(PreprocessSuffix): lecture_oops1.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ./build-$(ConfigurationName)//lecture_oops1.cpp$(PreprocessSuffix) lecture_oops1.cpp
 
 
 -include ./build-$(ConfigurationName)///*$(DependSuffix)
