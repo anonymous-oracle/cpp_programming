@@ -5,7 +5,7 @@
   <Project Name="operator_overloading" Path="operator_overloading/operator_overloading.project" Active="No"/>
   <Project Name="inheritance" Path="inheritance/inheritance.project" Active="No"/>
   <Project Name="polymorphism" Path="polymorphism/polymorphism.project" Active="No"/>
-  <Project Name="smart_pointers" Path="smart_pointers/smart_pointers.project" Active="Yes"/>
+  <Project Name="unique_pointers" Path="smart_pointers/smart_pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -14,7 +14,7 @@
       <Project Name="operator_overloading" ConfigName="Debug"/>
       <Project Name="inheritance" ConfigName="Debug"/>
       <Project Name="polymorphism" ConfigName="Debug"/>
-      <Project Name="smart_pointers" ConfigName="Debug"/>
+      <Project Name="unique_pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -23,7 +23,7 @@
       <Project Name="operator_overloading" ConfigName="Release"/>
       <Project Name="inheritance" ConfigName="Release"/>
       <Project Name="polymorphism" ConfigName="Release"/>
-      <Project Name="smart_pointers" ConfigName="Release"/>
+      <Project Name="unique_pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
