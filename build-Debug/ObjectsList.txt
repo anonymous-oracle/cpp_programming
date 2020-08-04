@@ -1,0 +1,1 @@
+./build-Debug//test_player.cpp.o ./build-Debug//Player.cpp.o

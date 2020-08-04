@@ -1,7 +1,9 @@
 #include <string>
-#ifndef MOVIE_HPP
-#define MOVIE_HPP
-
+#include <iostream>
+#ifndef _MOVIE_H_
+#define _ MOVIE_H_
+#define PRINT(sent)\
+ std::cout << sent << std::endl
 class Movie
 {
     private:
@@ -12,9 +14,10 @@ class Movie
         int watched;
     public:
         Movie(std::string movie_name="None", std::string movie_rating="G", int movie_watched=0);
+//        Movie(Movie &&source);
         ~Movie();
-        // Movie(Movie &&source);
-        std::string *get_movie_name();
+        std::string get_movie_name();
+        static int get_num_movies();
 };
 
 

@@ -1,0 +1,5 @@
+/bin/sh -c '/usr/bin/make -j12 -e -f  Makefile'
+----------Building project:[ cpp_programming - Debug ]----------
+make[1]: Entering directory '/home/suhas/cpp_programming'
+make[1]: Leaving directory '/home/suhas/cpp_programming'
+====0 errors, 0 warnings====

@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="cpp-programming" Database="" Version="10.0.0">
-  <Project Name="cpp_programming" Path="cpp_programming.project" Active="Yes"/>
+  <Project Name="oops" Path="cpp_programming.project" Active="No"/>
+  <Project Name="oops_challenge" Path="oops_challenge/oops_challenge.project" Active="No"/>
+  <Project Name="operator_overloading" Path="operator_overloading/operator_overloading.project" Active="No"/>
+  <Project Name="inheritance" Path="inheritance/inheritance.project" Active="No"/>
+  <Project Name="polymorphism" Path="polymorphism/polymorphism.project" Active="No"/>
+  <Project Name="smart_pointers" Path="smart_pointers/smart_pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
-      <Project Name="cpp_programming" ConfigName="Debug"/>
+      <Project Name="oops" ConfigName="Debug"/>
+      <Project Name="oops_challenge" ConfigName="Debug"/>
+      <Project Name="operator_overloading" ConfigName="Debug"/>
+      <Project Name="inheritance" ConfigName="Debug"/>
+      <Project Name="polymorphism" ConfigName="Debug"/>
+      <Project Name="smart_pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
-      <Project Name="cpp_programming" ConfigName="Release"/>
+      <Project Name="oops" ConfigName="Release"/>
+      <Project Name="oops_challenge" ConfigName="Release"/>
+      <Project Name="operator_overloading" ConfigName="Release"/>
+      <Project Name="inheritance" ConfigName="Release"/>
+      <Project Name="polymorphism" ConfigName="Release"/>
+      <Project Name="smart_pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

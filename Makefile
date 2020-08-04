@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ cpp_programming - Debug ]----------"
-	@"$(MAKE)" -f  "cpp_programming.mk"
+	@echo "----------Building project:[ polymorphism - Debug ]----------"
+	@cd "polymorphism" && "$(MAKE)" -f  "polymorphism.mk"
 clean:
-	@echo "----------Cleaning project:[ cpp_programming - Debug ]----------"
-	@"$(MAKE)" -f  "cpp_programming.mk" clean
+	@echo "----------Cleaning project:[ polymorphism - Debug ]----------"
+	@cd "polymorphism" && "$(MAKE)" -f  "polymorphism.mk" clean

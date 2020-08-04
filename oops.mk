@@ -3,7 +3,7 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=cpp_programming
+ProjectName            :=oops
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/home/suhas/cpp_programming
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=./build-$(ConfigurationName)//test_move.cpp$(ObjectSuffix) ./build-$(ConfigurationName)//Move.cpp$(ObjectSuffix) 
+Objects0=./build-$(ConfigurationName)//test_player.cpp$(ObjectSuffix) ./build-$(ConfigurationName)//Player.cpp$(ObjectSuffix) 
 
 
 
@@ -91,21 +91,21 @@ PreBuild:
 ##
 ## Objects
 ##
-./build-$(ConfigurationName)//test_move.cpp$(ObjectSuffix): test_move.cpp ./build-$(ConfigurationName)//test_move.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/suhas/cpp_programming/test_move.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/test_move.cpp$(ObjectSuffix) $(IncludePath)
-./build-$(ConfigurationName)//test_move.cpp$(DependSuffix): test_move.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT./build-$(ConfigurationName)//test_move.cpp$(ObjectSuffix) -MF./build-$(ConfigurationName)//test_move.cpp$(DependSuffix) -MM test_move.cpp
+./build-$(ConfigurationName)//test_player.cpp$(ObjectSuffix): test_player.cpp ./build-$(ConfigurationName)//test_player.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/suhas/cpp_programming/test_player.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/test_player.cpp$(ObjectSuffix) $(IncludePath)
+./build-$(ConfigurationName)//test_player.cpp$(DependSuffix): test_player.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT./build-$(ConfigurationName)//test_player.cpp$(ObjectSuffix) -MF./build-$(ConfigurationName)//test_player.cpp$(DependSuffix) -MM test_player.cpp
 
-./build-$(ConfigurationName)//test_move.cpp$(PreprocessSuffix): test_move.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ./build-$(ConfigurationName)//test_move.cpp$(PreprocessSuffix) test_move.cpp
+./build-$(ConfigurationName)//test_player.cpp$(PreprocessSuffix): test_player.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ./build-$(ConfigurationName)//test_player.cpp$(PreprocessSuffix) test_player.cpp
 
-./build-$(ConfigurationName)//Move.cpp$(ObjectSuffix): Move.cpp ./build-$(ConfigurationName)//Move.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/suhas/cpp_programming/Move.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Move.cpp$(ObjectSuffix) $(IncludePath)
-./build-$(ConfigurationName)//Move.cpp$(DependSuffix): Move.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT./build-$(ConfigurationName)//Move.cpp$(ObjectSuffix) -MF./build-$(ConfigurationName)//Move.cpp$(DependSuffix) -MM Move.cpp
+./build-$(ConfigurationName)//Player.cpp$(ObjectSuffix): Player.cpp ./build-$(ConfigurationName)//Player.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/suhas/cpp_programming/Player.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Player.cpp$(ObjectSuffix) $(IncludePath)
+./build-$(ConfigurationName)//Player.cpp$(DependSuffix): Player.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT./build-$(ConfigurationName)//Player.cpp$(ObjectSuffix) -MF./build-$(ConfigurationName)//Player.cpp$(DependSuffix) -MM Player.cpp
 
-./build-$(ConfigurationName)//Move.cpp$(PreprocessSuffix): Move.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ./build-$(ConfigurationName)//Move.cpp$(PreprocessSuffix) Move.cpp
+./build-$(ConfigurationName)//Player.cpp$(PreprocessSuffix): Player.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ./build-$(ConfigurationName)//Player.cpp$(PreprocessSuffix) Player.cpp
 
 
 -include ./build-$(ConfigurationName)///*$(DependSuffix)
