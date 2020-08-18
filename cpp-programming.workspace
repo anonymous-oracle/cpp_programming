@@ -5,7 +5,9 @@
   <Project Name="operator_overloading" Path="operator_overloading/operator_overloading.project" Active="No"/>
   <Project Name="inheritance" Path="inheritance/inheritance.project" Active="No"/>
   <Project Name="polymorphism" Path="polymorphism/polymorphism.project" Active="No"/>
-  <Project Name="unique_pointers" Path="smart_pointers/smart_pointers.project" Active="Yes"/>
+  <Project Name="unique_pointers" Path="smart_pointers/smart_pointers.project" Active="No"/>
+  <Project Name="io_streams" Path="io_streams/io_streams.project" Active="No"/>
+  <Project Name="stl_library" Path="stl_library/stl_library.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +17,8 @@
       <Project Name="inheritance" ConfigName="Debug"/>
       <Project Name="polymorphism" ConfigName="Debug"/>
       <Project Name="unique_pointers" ConfigName="Debug"/>
+      <Project Name="io_streams" ConfigName="Debug"/>
+      <Project Name="stl_library" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +28,8 @@
       <Project Name="inheritance" ConfigName="Release"/>
       <Project Name="polymorphism" ConfigName="Release"/>
       <Project Name="unique_pointers" ConfigName="Release"/>
+      <Project Name="io_streams" ConfigName="Release"/>
+      <Project Name="stl_library" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

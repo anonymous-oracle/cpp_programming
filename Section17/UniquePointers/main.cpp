@@ -3,7 +3,7 @@
 #include <iostream>
 #include <memory>
 #include <vector>
-
+#include <boost/program_options.hpp>
 #include "Account.h"
 #include "Checking_Account.h"
 #include "Trust_Account.h"
@@ -19,9 +19,10 @@ public:
     ~Test() {std::cout << "Test destructor (" << data << ")" << std::endl; }
 };
 
-using namespace std;
+using namespace boost::program_options;
 
 int main() {
+    option_description
 // RAW POINTERS
 //    Test *t1 = new Test {1000};
 //     delete t1;
