@@ -6,8 +6,8 @@
   <Project Name="inheritance" Path="inheritance/inheritance.project" Active="No"/>
   <Project Name="polymorphism" Path="polymorphism/polymorphism.project" Active="No"/>
   <Project Name="unique_pointers" Path="smart_pointers/smart_pointers.project" Active="No"/>
-  <Project Name="io_streams" Path="io_streams/io_streams.project" Active="No"/>
-  <Project Name="stl_library" Path="stl_library/stl_library.project" Active="Yes"/>
+  <Project Name="io_streams" Path="io_streams/io_streams.project" Active="Yes"/>
+  <Project Name="stl_library" Path="stl_library/stl_library.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

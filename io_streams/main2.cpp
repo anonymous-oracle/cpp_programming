@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <gs
 using namespace std;
 
 int main(int argc, char *argv[])

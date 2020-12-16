@@ -1,0 +1,22 @@
+{
+    "tasks": [{
+            "type": "shell",
+            "label": "C/C++: g++-7 build active file",
+            "command": "/usr/bin/g++-7",
+            "args": [
+                "-g",
+                "${workspaceFolder}/account/*.cpp",
+                "-o",
+                "${workspaceFolder}/account/output"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ],
+    "version": "2.0.0"
+}

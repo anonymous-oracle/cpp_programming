@@ -93,7 +93,11 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="template_class.cpp"/>
+    <File Name="test_array.cpp"/>
+    <File Name="test_stl_algorithms.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="test_iterators.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="template_array_class.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="template_class.cpp" ExcludeProjConfig="Debug;"/>
     <File Name="template_functions.cpp" ExcludeProjConfig="Debug;"/>
   </VirtualDirectory>
 </CodeLite_Project>

@@ -93,8 +93,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="main3.cpp"/>
-    <File Name="main2.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="main3.cpp" ExcludeProjConfig="Debug;"/>
+    <File Name="main2.cpp" ExcludeProjConfig=""/>
     <File Name="main.cpp" ExcludeProjConfig="Debug;"/>
   </VirtualDirectory>
 </CodeLite_Project>
